@@ -65,34 +65,42 @@ photo-helper-pro-v1/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
+```
 
-
-Installation
-1. Clone the repository
-
+#Installation
+## 1. Clone the repository
+```bash
 git clone https://github.com/abdessamad-erramy/photo-helper-pro-v1.git
 cd photo-helper-pro-v1
+```
 
 2. Create a virtual environment (recommended)
+```bash
 python -m venv venv
+```
 
 
-Activate the virtual environment:
 
-Windows
+## Activate the virtual environment:
 
+## Windows
+```bash
 venv\Scripts\activate
-
-
+```
+```bash
 Linux / macOS
 
 source venv/bin/activate
-
-3. Install dependencies
+```
+## 3. Install dependencies
+  ```bash 
 pip install -r requirements.txt
+```
 
-Running the Application
+## Running the Application
+```bash
 python src/photo_helper_pro.py
+```
 
 The graphical interface will open, allowing you to load and edit images.
 
